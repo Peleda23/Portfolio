@@ -1,0 +1,37 @@
+:root {
+    --container-height: 60vh;
+}
+
+body {
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 50px;
+}
+
+nav ul {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+
+li {
+    width: 100px;
+}
+
+#container1 {
+    height: var(--container-height);
+}
+
+#container2 {
+    height: var(--container-height);
+}
+
+#container3 {
+    height: var(--container-height);
+}
