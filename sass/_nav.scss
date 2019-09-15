@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  flex-direction: row-reverse;
+  background: transparent;
+
+  &-btn {
+    padding: 1rem 0.5rem;
+    background: transparent;
+
+    &__link {
+      text-decoration: none;
+      background: transparent;
+
+      &:hover {
+        color: $color-three;
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+$color-one: #247BA0;
+$color-two: #70C1B3;
+$color-three: #b2dbbf;
+$color-four: #f3ffbd;
+$color-five: #ff1654;
+
+* {
+  background: $color-one;
+  color: $color-four;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
